@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root{
+    --oxfordBlue: #14213D;
+    --black:#000000;
+    --orangeWeb:#FCA311;
+    --platinum:#E5E5E5;
+    --white:#ffffff;
+}
+
 body{
     font-family: 'Yesteryear', cursive;
 }
