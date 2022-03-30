@@ -8,7 +8,7 @@ const soundTom = document.getElementById("musicTom");
 
 //keydown
 document.addEventListener("keydown", (event) => {
-    if (event.key == "a" || "A") {
+    if (event.key == "a" || event.key == "A") {
         soundTom.src = "sounds/tom.wav"
     }
 })
