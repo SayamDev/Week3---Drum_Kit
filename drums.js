@@ -1,14 +1,16 @@
 
-//button
+//button-----------------------------------------
 const tom = document.getElementById("tom");
 const tink = document.getElementById("tink");
+const snare = document.getElementById("snare");
 
 
 //Music
 const soundTom = document.getElementById("musicTom");
 const soundTink = document.getElementById("musicTink");
+const soundSnare = document.getElementById("musicSnare");
 
-//keydown = sound and color being generated
+//keydown = sound and color being generated----------------------------
 
 //keyA
 document.addEventListener("keydown", (event) => {
@@ -36,7 +38,7 @@ document.addEventListener("keydown", (event) => {
 //KeyD
 document.addEventListener("keydown", (event) => {
     if (event.key == "d" || event.key == "D") {
-        soundTink.src = "sounds/snare.wav";
+        soundSnare.src = "sounds/snare.wav";
         snare.style.background = "#FCA311";
         p_3.style.fontSize = "12px";
         h2_3.style.fontSize = "30px";
@@ -44,13 +46,13 @@ document.addEventListener("keydown", (event) => {
     } 
 });
 
+//----------------------------------------------------------------
 
 
 
 
 
-
-//keyup = no color being generated
+//keyup = no color being generated---------------------------------------
 
 document.addEventListener("keyup", () => {
     //KeyA
