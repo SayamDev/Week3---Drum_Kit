@@ -137,7 +137,7 @@ document.addEventListener("keydown", (event) => {
 
 
 
-//keyup = no color being generated---------------------------------------
+//keyup = styling when key comes up---------------------------------------
 
 document.addEventListener("keyup", () => {
     //KeyA
@@ -193,12 +193,27 @@ tom.addEventListener("mousedown", () => { // specifically adding an event listen
         h2.style.fontSize = "30px";
         
 });
-//KeyA
 
 //mouseup - removing styling after the click has been lifted
 tom.addEventListener("mouseup", () => { // 
     h2.style.fontSize = "1.5em";
     p.style.fontSize = "1.2rem";
     tom.style.background = "#E5E5E5";
+    
+});
+
+
+//KeyB
+tink.addEventListener("mousedown", () => { 
+    soundTink.src = "sounds/tom.wav";
+    tink.style.background = "#FCA311";
+    p_2.style.fontSize = "12px";
+    h2_2.style.fontSize = "30px";
+    
+});
+tink.addEventListener("mouseup", () => { 
+    h2_2.style.fontSize = "1.5em";
+    p_2.style.fontSize = "1.2rem";
+    tink.style.background = "#E5E5E5";
     
 });
