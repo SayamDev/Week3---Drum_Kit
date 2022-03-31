@@ -232,3 +232,18 @@ snare.addEventListener("mouseup", () => {
     snare.style.background = "#E5E5E5";
     
 });
+
+//keyD
+ride.addEventListener("mousedown", () => { 
+    soundRide.src = "sounds/ride.wav";
+    ride.style.background = "#FCA311";
+    p_4.style.fontSize = "12px";
+    h2_4.style.fontSize = "30px";
+    
+});
+ride.addEventListener("mouseup", () => { 
+    h2_4.style.fontSize = "1.5em";
+    p_4.style.fontSize = "1.2rem";
+    ride.style.background = "#E5E5E5";
+    
+});
