@@ -178,4 +178,15 @@ document.addEventListener("keyup", () => {
     boom.style.background = "#E5E5E5";
     
 
-})
+});
+
+
+
+//clicking event for buttons
+tom.addEventListener("mousedown", () => { // specifically adding an event listener to tom id / also mousedown = whenever mouse is pressed down
+        soundTom.src = "sounds/tom.wav";
+        tom.style.background = "#FCA311";
+        p.style.fontSize = "12px";
+        h2.style.fontSize = "30px";
+        
+});
