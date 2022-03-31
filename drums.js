@@ -182,11 +182,23 @@ document.addEventListener("keyup", () => {
 
 
 
-//clicking event for buttons
+//clicking event for buttons--------------------
+
+//KeyA
+//mousedown when button has been clicked
 tom.addEventListener("mousedown", () => { // specifically adding an event listener to tom id / also mousedown = whenever mouse is pressed down
         soundTom.src = "sounds/tom.wav";
         tom.style.background = "#FCA311";
         p.style.fontSize = "12px";
         h2.style.fontSize = "30px";
         
+});
+//KeyA
+
+//mouseup - removing styling after the click has been lifted
+tom.addEventListener("mouseup", () => { // 
+    h2.style.fontSize = "1.5em";
+    p.style.fontSize = "1.2rem";
+    tom.style.background = "#E5E5E5";
+    
 });
