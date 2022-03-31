@@ -182,7 +182,7 @@ document.addEventListener("keyup", () => {
 
 
 
-//clicking event for buttons--------------------
+//clicking event for buttons------------------------------
 
 //KeyA
 //mousedown when button has been clicked
@@ -205,7 +205,7 @@ tom.addEventListener("mouseup", () => { //
 
 //KeyB
 tink.addEventListener("mousedown", () => { 
-    soundTink.src = "sounds/tom.wav";
+    soundTink.src = "sounds/tink.wav";
     tink.style.background = "#FCA311";
     p_2.style.fontSize = "12px";
     h2_2.style.fontSize = "30px";
@@ -215,5 +215,20 @@ tink.addEventListener("mouseup", () => {
     h2_2.style.fontSize = "1.5em";
     p_2.style.fontSize = "1.2rem";
     tink.style.background = "#E5E5E5";
+    
+});
+
+//keyC
+snare.addEventListener("mousedown", () => { 
+    soundSnare.src = "sounds/snare.wav";
+    snare.style.background = "#FCA311";
+    p_3.style.fontSize = "12px";
+    h2_3.style.fontSize = "30px";
+    
+});
+snare.addEventListener("mouseup", () => { 
+    h2_3.style.fontSize = "1.5em";
+    p_3.style.fontSize = "1.2rem";
+    snare.style.background = "#E5E5E5";
     
 });
