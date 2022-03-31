@@ -4,6 +4,7 @@ const tom = document.getElementById("tom");
 const tink = document.getElementById("tink");
 const snare = document.getElementById("snare");
 const ride = document.getElementById("ride");
+const openhat = document.getElementById("openhat");
 
 
 //Music
@@ -11,6 +12,7 @@ const soundTom = document.getElementById("musicTom");
 const soundTink = document.getElementById("musicTink");
 const soundSnare = document.getElementById("musicSnare");
 const soundRide = document.getElementById("musicRide");
+const soundOpenhat = document.getElementById("musicOpenhat");
 
 //keydown = sound and color being generated----------------------------
 
@@ -60,6 +62,18 @@ document.addEventListener("keydown", (event) => {
     } 
 });
 
+
+//KeyG
+document.addEventListener("keydown", (event) => {
+    if (event.key == "g" || event.key == "G") {
+        soundOpenhat.src = "sounds/openhat.wav";
+        openhat.style.background = "#FCA311";
+        p_5.style.fontSize = "12px";
+        h2_5.style.fontSize = "30px";
+        
+    } 
+});
+
 //----------------------------------------------------------------
 
 
@@ -85,6 +99,10 @@ document.addEventListener("keyup", () => {
     h2_4.style.fontSize = "1.5em";
     p_4.style.fontSize = "1.2rem";
     ride.style.background = "#E5E5E5";
+    //KeyG
+    h2_5.style.fontSize = "1.5em";
+    p_5.style.fontSize = "1.2rem";
+    openhat.style.background = "#E5E5E5";
     
 
 })
