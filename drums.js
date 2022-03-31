@@ -203,7 +203,7 @@ tom.addEventListener("mouseup", () => { //
 });
 
 
-//KeyB
+//KeyS
 tink.addEventListener("mousedown", () => { 
     soundTink.src = "sounds/tink.wav";
     tink.style.background = "#FCA311";
@@ -218,7 +218,7 @@ tink.addEventListener("mouseup", () => {
     
 });
 
-//keyC
+//keyD
 snare.addEventListener("mousedown", () => { 
     soundSnare.src = "sounds/snare.wav";
     snare.style.background = "#FCA311";
@@ -233,7 +233,7 @@ snare.addEventListener("mouseup", () => {
     
 });
 
-//keyD
+//keyF
 ride.addEventListener("mousedown", () => { 
     soundRide.src = "sounds/ride.wav";
     ride.style.background = "#FCA311";
@@ -245,5 +245,81 @@ ride.addEventListener("mouseup", () => {
     h2_4.style.fontSize = "1.5em";
     p_4.style.fontSize = "1.2rem";
     ride.style.background = "#E5E5E5";
+    
+});
+
+//keyG
+openhat.addEventListener("mousedown", () => { 
+    soundOpenhat.src = "sounds/openhat.wav";
+    openhat.style.background = "#FCA311";
+    p_5.style.fontSize = "12px";
+    h2_5.style.fontSize = "30px";
+    
+});
+openhat.addEventListener("mouseup", () => { 
+    h2_5.style.fontSize = "1.5em";
+    p_5.style.fontSize = "1.2rem";
+    openhat.style.background = "#E5E5E5";
+    
+});
+
+//keyH
+kick.addEventListener("mousedown", () => { 
+    soundKick.src = "sounds/kick.wav";
+    kick.style.background = "#FCA311";
+    p_6.style.fontSize = "12px";
+    h2_6.style.fontSize = "30px";
+    
+});
+kick.addEventListener("mouseup", () => { 
+    h2_6.style.fontSize = "1.5em";
+    p_6.style.fontSize = "1.2rem";
+    kick.style.background = "#E5E5E5";
+    
+});
+
+//keyJ
+hihat.addEventListener("mousedown", () => { 
+    soundHihat.src = "sounds/hihat.wav";
+    hihat.style.background = "#FCA311";
+    p_7.style.fontSize = "12px";
+    h2_7.style.fontSize = "30px";
+    
+});
+hihat.addEventListener("mouseup", () => { 
+    h2_7.style.fontSize = "1.5em";
+    p_7.style.fontSize = "1.2rem";
+    hihat.style.background = "#E5E5E5";
+    
+});
+
+//keyK
+clap.addEventListener("mousedown", () => { 
+    soundClap.src = "sounds/clap.wav";
+    clap.style.background = "#FCA311";
+    p_8.style.fontSize = "12px";
+    h2_8.style.fontSize = "30px";
+    
+});
+clap.addEventListener("mouseup", () => { 
+    h2_8.style.fontSize = "1.5em";
+    p_8.style.fontSize = "1.2rem";
+    clap.style.background = "#E5E5E5";
+    
+});
+
+
+//keyL
+boom.addEventListener("mousedown", () => { 
+    soundBoom.src = "sounds/boom.wav";
+    boom.style.background = "#FCA311";
+    p_9.style.fontSize = "12px";
+    h2_9.style.fontSize = "30px";
+    
+});
+boom.addEventListener("mouseup", () => { 
+    h2_9.style.fontSize = "1.5em";
+    p_9.style.fontSize = "1.2rem";
+    boom.style.background = "#E5E5E5";
     
 });
