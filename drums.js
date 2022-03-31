@@ -8,6 +8,7 @@ const openhat = document.getElementById("openhat");
 const kick = document.getElementById("kick");
 const hihat = document.getElementById("hihat");
 const clap = document.getElementById("clap");
+const boom = document.getElementById("boom");
 
 
 //Music
@@ -19,6 +20,7 @@ const soundOpenhat = document.getElementById("musicOpenhat");
 const soundKick = document.getElementById("musicKick");
 const soundHihat = document.getElementById("musicHihat");
 const soundClap = document.getElementById("musicClap");
+const soundBoom = document.getElementById("musicBoom");
 
 //keydown = sound and color being generated----------------------------
 
@@ -117,6 +119,18 @@ document.addEventListener("keydown", (event) => {
     } 
 });
 
+
+//KeyL
+document.addEventListener("keydown", (event) => {
+    if (event.key == "l" || event.key == "L") {
+        soundBoom.src = "sounds/boom.wav";
+        boom.style.background = "#FCA311";
+        p_9.style.fontSize = "12px";
+        h2_9.style.fontSize = "30px";
+        
+    } 
+});
+
 //----------------------------------------------------------------
 
 
@@ -158,6 +172,10 @@ document.addEventListener("keyup", () => {
     h2_8.style.fontSize = "1.5em";
     p_8.style.fontSize = "1.2rem";
     clap.style.background = "#E5E5E5";
+    //KeyL
+    h2_9.style.fontSize = "1.5em";
+    p_9.style.fontSize = "1.2rem";
+    boom.style.background = "#E5E5E5";
     
 
 })
