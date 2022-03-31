@@ -22,7 +22,9 @@ const soundHihat = document.getElementById("musicHihat");
 const soundClap = document.getElementById("musicClap");
 const soundBoom = document.getElementById("musicBoom");
 
-//keydown = sound and color being generated----------------------------
+//-------------------------------------------------------
+
+//keydown = sound and color being generated------------------------------------------------
 
 //keyA
 document.addEventListener("keydown", (event) => {
@@ -131,13 +133,13 @@ document.addEventListener("keydown", (event) => {
     } 
 });
 
-//----------------------------------------------------------------
+//--------------------------------------------------------------
 
 
 
 
 
-//keyup = styling when key comes up---------------------------------------
+//keyup = styling when key comes up-------------------------------------------------
 
 document.addEventListener("keyup", () => {
     //KeyA
@@ -179,7 +181,7 @@ document.addEventListener("keyup", () => {
     
 
 });
-
+//-----------------------------------------------------------
 
 
 //clicking event for buttons------------------------------
