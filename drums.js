@@ -7,6 +7,7 @@ const ride = document.getElementById("ride");
 const openhat = document.getElementById("openhat");
 const kick = document.getElementById("kick");
 const hihat = document.getElementById("hihat");
+const clap = document.getElementById("clap");
 
 
 //Music
@@ -17,6 +18,7 @@ const soundRide = document.getElementById("musicRide");
 const soundOpenhat = document.getElementById("musicOpenhat");
 const soundKick = document.getElementById("musicKick");
 const soundHihat = document.getElementById("musicHihat");
+const soundClap = document.getElementById("musicClap");
 
 //keydown = sound and color being generated----------------------------
 
@@ -103,6 +105,18 @@ document.addEventListener("keydown", (event) => {
     } 
 });
 
+
+//KeyK
+document.addEventListener("keydown", (event) => {
+    if (event.key == "k" || event.key == "K") {
+        soundClap.src = "sounds/clap.wav";
+        clap.style.background = "#FCA311";
+        p_8.style.fontSize = "12px";
+        h2_8.style.fontSize = "30px";
+        
+    } 
+});
+
 //----------------------------------------------------------------
 
 
@@ -140,6 +154,10 @@ document.addEventListener("keyup", () => {
     h2_7.style.fontSize = "1.5em";
     p_7.style.fontSize = "1.2rem";
     hihat.style.background = "#E5E5E5";
+    //KeyK
+    h2_8.style.fontSize = "1.5em";
+    p_8.style.fontSize = "1.2rem";
+    clap.style.background = "#E5E5E5";
     
 
 })
